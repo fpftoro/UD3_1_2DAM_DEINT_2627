@@ -35,5 +35,7 @@ Si trabajas con el repositorio de la unidad, cada kata va en su propia carpeta, 
 | 4 | [Bolera](./K04-Bolera/ENUNCIADO.md) | 5, 7 | ★★★ | 2 h | Puntuar una partida de bolos: semiplenos, plenos y el último cuadro |
 | 5 | [Anagramas](./K05-Anagramas/ENUNCIADO.md) | 10 | ★★☆ | 1 h | Buscar y agrupar anagramas con LINQ |
 | 6 | [Limitador de peticiones](./K06-LimitadorPeticiones/ENUNCIADO.md) | 5, 9, 12 | ★★☆ | 1,5 h | Una ventana deslizante, un evento al rechazar y un reloj falso en las pruebas |
+| 7 | [Invernadero](./K07-Invernadero/ENUNCIADO.md) | 9 | ★☆☆ | 1 h | Un sensor que avisa con un evento al pasar un umbral y al volver a la normalidad, y un suscriptor que lo registra |
+| 8 | [Almacén](./K08-Almacen/ENUNCIADO.md) | 8, 9 | ★★☆ | 1,5 h | Stock en un diccionario, dos eventos en orden (stock bajo y agotado) y varios suscriptores |
 
 Si no sabes por cuál empezar, empieza por el 1: el resto de katas se trabajan igual.

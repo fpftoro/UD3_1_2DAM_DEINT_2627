@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Invernadero.Logica/Invernadero.Logica.csproj" />
+  <Project Path="Invernadero.Pruebas/Invernadero.Pruebas.csproj" />
+</Solution>

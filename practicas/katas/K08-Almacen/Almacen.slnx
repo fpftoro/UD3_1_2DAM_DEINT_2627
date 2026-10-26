@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Almacen.Logica/Almacen.Logica.csproj" />
+  <Project Path="Almacen.Pruebas/Almacen.Pruebas.csproj" />
+</Solution>

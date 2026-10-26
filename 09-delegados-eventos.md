@@ -132,6 +132,21 @@ t =>
 
 El compilador deduce los tipos de los parámetros por el delegado al que se asigna la lambda.
 
+**Métodos anónimos.** Antes de las lambdas (C# 3, 2007), C# 2 ya permitía escribir un método sin nombre en el sitio donde se usa, con la palabra `delegate`. Lo verás en código heredado y en materiales antiguos:
+
+```csharp
+// Método anónimo (C# 2): tipos de los parámetros obligatorios y cuerpo siempre entre llaves
+Func<int, int> doblarAntes = delegate (int x) { return x * 2; };
+
+// La misma función con una lambda: es la forma que se usa hoy
+Func<int, int> doblar = x => x * 2;
+
+Console.WriteLine(doblarAntes(21) == doblar(21));
+// Salida: True
+```
+
+Hacen lo mismo y se pueden asignar a los mismos delegados. La lambda es más corta, deduce los tipos y admite una sola expresión sin llaves; por eso los métodos anónimos ya casi no se escriben. Su única particularidad es que, si no necesitan los parámetros, pueden omitirlos: `Console.CancelKeyPress += delegate { Console.WriteLine("Saliendo…"); };` se suscribe sin escribir los dos parámetros del evento, mientras que la lambda tendría que escribirlos (`(_, _) => …`).
+
 > 🔁 **Transferencia**: Son las lambdas de Java (`t -> !t.isCompletada()`), Kotlin (`{ t -> !t.completada }`), Python (`lambda t: not t.completada`) o las funciones flecha de JavaScript (`t => !t.completada`).
 
 ### 9.4.2. Métodos de `List<T>` que reciben lambdas
