@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Cine.Consola/Cine.Consola.csproj" />
+  <Project Path="Cine.Logica/Cine.Logica.csproj" />
+  <Project Path="Cine.Pruebas/Cine.Pruebas.csproj" />
+</Solution>

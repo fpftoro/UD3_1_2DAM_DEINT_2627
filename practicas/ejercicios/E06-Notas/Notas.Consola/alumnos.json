@@ -1,0 +1,14 @@
+[
+  { "nombre": "Ana López", "curso": "2DAM", "edad": 20, "notas": [8, 7.5, 9] },
+  { "nombre": "Luis Pérez", "curso": "2DAM", "edad": 19, "notas": [4, 5.5, 3] },
+  { "nombre": "Marta Ruiz", "curso": "2DAM", "edad": 22, "notas": [9.5, 10, 9] },
+  { "nombre": "Óscar Gil", "curso": "2DAM", "edad": 25, "notas": [6, 6.5, 7] },
+  { "nombre": "Zoe Martín", "curso": "1DAM", "edad": 17, "notas": [7, 8, 6.5] },
+  { "nombre": "Pablo Sanz", "curso": "1DAM", "edad": 18, "notas": [3.5, 4, 5] },
+  { "nombre": "Lucía Moreno", "curso": "1DAM", "edad": 17, "notas": [9, 8.5, 9.5] },
+  { "nombre": "Hugo Navarro", "curso": "1DAM", "edad": 21, "notas": [5, 5, 5] },
+  { "nombre": "Sara Ortega", "curso": "2DAW", "edad": 20, "notas": [6, 7, 8] },
+  { "nombre": "Diego Castro", "curso": "2DAW", "edad": 23, "notas": [2, 4.5, 3.5] },
+  { "nombre": "Elena Vidal", "curso": "2DAW", "edad": 19, "notas": [10, 9.5, 10] },
+  { "nombre": "Iván Romero", "curso": "2DAW", "edad": 20, "notas": [5.5, 6, 4.5] }
+]

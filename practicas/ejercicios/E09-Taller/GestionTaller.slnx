@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GestionTaller.Consola/GestionTaller.Consola.csproj" />
+  <Project Path="GestionTaller.Logica/GestionTaller.Logica.csproj" />
+  <Project Path="GestionTaller.Pruebas/GestionTaller.Pruebas.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Romanos.Logica/Romanos.Logica.csproj" />
+  <Project Path="Romanos.Pruebas/Romanos.Pruebas.csproj" />
+</Solution>

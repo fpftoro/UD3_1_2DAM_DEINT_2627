@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Nube.Consola/Nube.Consola.csproj" />
+  <Project Path="Nube.Logica/Nube.Logica.csproj" />
+  <Project Path="Nube.Pruebas/Nube.Pruebas.csproj" />
+</Solution>

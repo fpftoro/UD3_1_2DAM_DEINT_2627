@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Banco.Consola/Banco.Consola.csproj" />
+  <Project Path="Banco.Logica/Banco.Logica.csproj" />
+  <Project Path="Banco.Pruebas/Banco.Pruebas.csproj" />
+</Solution>

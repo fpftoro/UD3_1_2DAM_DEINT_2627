@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380" role="img" aria-labelledby="t d">
+  <title id="t">Tipos de valor y de referencia en memoria</title>
+  <desc id="d">A la izquierda, la pila con las variables locales: a y b son int con su valor 5 y 7 dentro; p1 y p2 son referencias que apuntan al mismo objeto Punto del montón. A la derecha, el montón con un objeto Punto con X igual a 10 e Y igual a 2.</desc>
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4fc3f7"/>
+    </marker>
+  </defs>
+  <rect width="860" height="380" rx="12" fill="#1a1530"/>
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Código -->
+    <g font-family="Consolas, 'Cascadia Code', 'Courier New', monospace" font-size="15" fill="#ffffff" xml:space="preserve">
+      <text x="30" y="40" fill="#cfc6f5">// Código</text>
+      <text x="30" y="66">int a = 5;</text>
+      <text x="30" y="88">int b = a;  b = 7;</text>
+      <text x="30" y="110">var p1 = new Punto(10, 2);</text>
+      <text x="30" y="132">var p2 = p1;</text>
+    </g>
+    <!-- Pila -->
+    <text x="30" y="180" fill="#cfc6f5" font-size="18" font-weight="600">Pila (variables locales)</text>
+    <g font-size="16">
+      <rect x="30" y="195" width="300" height="38" rx="6" fill="#ffffff" fill-opacity="0.08" stroke="#9b7bff"/>
+      <text x="45" y="220" fill="#ffffff">a</text><text x="120" y="220" fill="#9b7bff">int</text><text x="300" y="220" fill="#ffffff" text-anchor="end" font-weight="700">5</text>
+      <rect x="30" y="241" width="300" height="38" rx="6" fill="#ffffff" fill-opacity="0.08" stroke="#9b7bff"/>
+      <text x="45" y="266" fill="#ffffff">b</text><text x="120" y="266" fill="#9b7bff">int</text><text x="300" y="266" fill="#ffffff" text-anchor="end" font-weight="700">7</text>
+      <rect x="30" y="287" width="300" height="38" rx="6" fill="#ffffff" fill-opacity="0.08" stroke="#4fc3f7"/>
+      <text x="45" y="312" fill="#ffffff">p1</text><text x="120" y="312" fill="#4fc3f7">Punto (referencia)</text><circle cx="305" cy="306" r="5" fill="#4fc3f7"/>
+      <rect x="30" y="333" width="300" height="38" rx="6" fill="#ffffff" fill-opacity="0.08" stroke="#4fc3f7"/>
+      <text x="45" y="358" fill="#ffffff">p2</text><text x="120" y="358" fill="#4fc3f7">Punto (referencia)</text><circle cx="305" cy="352" r="5" fill="#4fc3f7"/>
+    </g>
+    <!-- Montón -->
+    <text x="560" y="180" fill="#cfc6f5" font-size="18" font-weight="600">Montón (objetos)</text>
+    <rect x="560" y="250" width="250" height="90" rx="8" fill="#4fc3f7" fill-opacity="0.15" stroke="#4fc3f7" stroke-width="2"/>
+    <text x="580" y="278" fill="#ffffff" font-size="16" font-weight="700">objeto Punto</text>
+    <text x="580" y="305" fill="#ffffff" font-size="16" font-family="Consolas, 'Courier New', monospace">X = 10</text>
+    <text x="580" y="327" fill="#ffffff" font-size="16" font-family="Consolas, 'Courier New', monospace">Y = 2</text>
+    <path d="M310 306 C 430 306, 450 290, 555 290" stroke="#4fc3f7" stroke-width="2.5" fill="none" marker-end="url(#flecha)"/>
+    <path d="M310 352 C 430 352, 450 315, 555 315" stroke="#4fc3f7" stroke-width="2.5" fill="none" marker-end="url(#flecha)"/>
+    <!-- Notas -->
+    <text x="420" y="66" fill="#9b7bff" font-size="15">Tipo de valor: la variable guarda el valor.</text>
+    <text x="420" y="88" fill="#9b7bff" font-size="15">Copiar a en b copia el 5; cambiar b no cambia a.</text>
+    <text x="420" y="118" fill="#4fc3f7" font-size="15">Tipo de referencia: la variable guarda una referencia.</text>
+    <text x="420" y="140" fill="#4fc3f7" font-size="15">Copiar p1 en p2 copia la referencia: un solo objeto.</text>
+  </g>
+</svg>

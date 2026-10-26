@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Bolera.Logica/Bolera.Logica.csproj" />
+  <Project Path="Bolera.Pruebas/Bolera.Pruebas.csproj" />
+</Solution>

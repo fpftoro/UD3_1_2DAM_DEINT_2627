@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Contactos.Consola/Contactos.Consola.csproj" />
+  <Project Path="Contactos.Logica/Contactos.Logica.csproj" />
+  <Project Path="Contactos.Pruebas/Contactos.Pruebas.csproj" />
+</Solution>

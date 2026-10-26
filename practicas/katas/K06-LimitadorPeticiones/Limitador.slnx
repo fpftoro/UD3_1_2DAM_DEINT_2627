@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Limitador.Logica/Limitador.Logica.csproj" />
+  <Project Path="Limitador.Pruebas/Limitador.Pruebas.csproj" />
+</Solution>

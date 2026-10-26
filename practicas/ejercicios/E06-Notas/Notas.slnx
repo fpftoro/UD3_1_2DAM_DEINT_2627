@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Notas.Consola/Notas.Consola.csproj" />
+  <Project Path="Notas.Logica/Notas.Logica.csproj" />
+  <Project Path="Notas.Pruebas/Notas.Pruebas.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Anagramas.Logica/Anagramas.Logica.csproj" />
+  <Project Path="Anagramas.Pruebas/Anagramas.Pruebas.csproj" />
+</Solution>

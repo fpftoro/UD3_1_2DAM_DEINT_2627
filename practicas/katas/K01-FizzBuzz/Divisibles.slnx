@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Divisibles.Logica/Divisibles.Logica.csproj" />
+  <Project Path="Divisibles.Pruebas/Divisibles.Pruebas.csproj" />
+</Solution>
